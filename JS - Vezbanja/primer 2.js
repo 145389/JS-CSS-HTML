@@ -5,8 +5,8 @@ let ukupno_novca = 0;
 //Jednostavniji nacin Verzije 006 //
 
 for(let brojac in novcanice) {
-console.log(novcanice[brojac])
-  ukupno_novca +=  novcanice[brojac];
+console.log(brojac);
+console.log(novcanice[brojac]);
+console.log( '------------')
+  
 }
-console.log(' ## KRAJ PETLJE ##')
-console.log('Ukupno novca: ' +  ukupno_novca + ' eura.');
