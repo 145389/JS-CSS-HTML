@@ -73,12 +73,11 @@ let automobili = {
 };
 
 for(automobil in automobili) {
- 
-  console.log(automobili[automobil]);
-  console.log( '-----------------')
+  let naziv = automobil;
+  let podaci_vozilu = automobili[automobil];
+  console.log(podaci_vozilu[0]);
+ console.log(` ${naziv} model: ${podaci_vozilu[2]} `)
+
 }
 
-automobili.audi.forEach(element => {
-  console.log(element);
-});
 
