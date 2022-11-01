@@ -75,8 +75,10 @@ let automobili = {
 for(automobil in automobili) {
   let naziv = automobil;
   let podaci_vozilu = automobili[automobil];
-  console.log(podaci_vozilu[0]);
- console.log(` ${naziv} model: ${podaci_vozilu[2]} `)
+ 
+   console.log(`${naziv} model: ${podaci_vozilu[2]},
+   godiste: ${podaci_vozilu[1]} 
+   cena: ${podaci_vozilu[0]} eura. `);
 
 }
 
