@@ -65,6 +65,8 @@ for(automobil in automobili) {
   console.log( '-----------------')
 }*/
 
+//Primer preko for petlje//
+/*
 let automobili = { 
   audi: ['70.000', '2017', 'Q7' ],
   bmw: ['50.000', '2018', '330D'],
@@ -81,5 +83,45 @@ for(automobil in automobili) {
    cena: ${podaci_vozilu[0]} eura. `);
 
 }
+*/
+
+//Vise nacina za pristup  objektu //
+
+/*let automobili = { 
+  audi: ['70.000', '2017', 'Q7' ],
+  bmw: ['50.000', '2018', '330D'],
+  porsche: ['60.000', '2016', 'Boxter'],
+  mercedes: ['100.000', '2019', '5400']
+};
+
+    /*console.log(automobili[`audi`]);*/
+
+   /*console.log(automobili.audi); */
+
+/*
+   let osoba = { 
+    ime: 'Cysecor',
+    prezime: 'Sigurnost',
+    godine: '12',
+    grad: 'Peking'
 
 
+    };
+
+    console.log(osoba.grad);
+    */
+
+
+
+
+
+    let osoba = { 
+      ime: 'Cysecor',
+      prezime: 'Sigurnost',
+      godine: '12',
+      grad: 'Peking'
+      };
+       console.log(`ime:${osoba.ime},
+       Prezime: ${osoba.przime},
+       Godina: ${osoba.godina},
+       Grad: ${osoba.grad}`);
