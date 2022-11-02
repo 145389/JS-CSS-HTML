@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Funkcije //
 /*
 let nekretnine = {
@@ -176,3 +177,18 @@ console.log(rata + 'eura');
 console.log(`Mesecna rata za kucu iznosi ${rata} na ${godine} godina.`);
 
 */
+=======
+//Funkcije //
+
+let nekretnine = {
+  stan: 70000,
+  kuca: 150000,
+  plac: 30000
+};
+let meseci = 10 * 12;
+let rata = nekretnine.stan / meseci;
+
+console.log(meseci + 'meseci.');
+console.log(rata + 'eura');
+console.log('Mesecna rata za stan iznosi ${rata} na 10 godina.');
+>>>>>>> b2e06b6b6ca479612d532723c1ea98564e27eaf9
