@@ -1,20 +1,20 @@
-let novcanice = 35; 
+let novcanice = 35;
 
 
 // 10 eura  vrednost jedne novcanice 
-let vrednost_novcanice = 10; 
+let vrednost_novcanice = 10;
 
 //brojac
 let brojac = 0;
 
 // izbrojane novcanice
-let izbrojane_novcanice =0;
+let izbrojane_novcanice = 0;
 
 
 /* Broji novcanice sve dok je brojac manji od 
 broja novcanica*/
 
-while (brojac < novcanice){
+while (brojac < novcanice) {
   izbrojane_novcanice++
 
   brojac++
@@ -22,6 +22,8 @@ while (brojac < novcanice){
 
 console.log(izbrojane_novcanice);
 
-let brend =  document.getElementsByTagName('span');
+let brend = document.getElementsByTagName('span');
 
 console.log(brend);
+
+ // test
