@@ -25,5 +25,3 @@ console.log(izbrojane_novcanice);
 let brend = document.getElementsByTagName('span');
 
 console.log(brend);
-
- // test
